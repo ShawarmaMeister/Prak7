@@ -38,7 +38,7 @@ public class Main {
         java.util.Date date8 = new java.util.Date(100000000000L); System.out.println(date8.toString());
 
         Random random = new Random(1000);
-//За
+
         for (int i = 0; i < 50; i++) {
             int randomNumber = random.nextInt(100);
             System.out.println("Случайное число " + (i + 1) + ": " + randomNumber);
